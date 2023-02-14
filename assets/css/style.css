@@ -39,6 +39,7 @@ h1{
     margin: auto;
     padding: 20px;
     padding-left: 50px;
+    padding-top: 30px;
     width: 60%;
     background-color:white;
     border-radius: 0 0 10px 10px;
@@ -60,4 +61,43 @@ h1{
     border: 2px solid #d3d7db;
     border-radius: 5px;
     font-size: 15px;
+}
+
+div>span{
+    width: 20px;
+    color: #434750;
+}
+
+h2{
+    font-size: 30px;
+    color: #434750;
+}
+
+h2::before{
+    content: '\25BC  ';
+    font-size: 20px;
+}
+
+.check{
+    color: #58bba2;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #58bba2 ;
+    display: inline-block;
+}
+
+.conteiner-task{
+    margin-bottom: 20px;
+}
+
+.conteiner-task::after{
+    content: 'Editorial';
+    color: white;
+    background-color: #45abea;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 12px;
 }
